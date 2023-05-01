@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--    <servlet></servlet>
+        <servlet-name>dsh</servlet-name>
+        <servlet-class>Servletdashboard</servlet-class>
+    -
+    <servlet-mapping>
+        <servlet-name>dsh</servlet-name>
+        <url-pattern>/Servletdashboard</url-pattern>
+    </servlet-mapping>-->
+    <servlet>
+        <servlet-name>S_Admine</servlet-name>
+        <servlet-class>packageadmin.S_Admine</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AjouterArticle</servlet-name>
+        <servlet-class>packageadmin.AjouterArticle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AjoouterCatg</servlet-name>
+        <servlet-class>packageadmin.AjoouterCatg</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AfficherPServlet</servlet-name>
+        <servlet-class>packageadmin.AfficherPServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AjoutCServlet</servlet-name>
+        <servlet-class>packageadmin.AjoutCServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>S_Admine</servlet-name>
+        <url-pattern>/S_Admine</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AjouterArticle</servlet-name>
+        <url-pattern>/AjouterArticle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AjoouterCatg</servlet-name>
+        <url-pattern>/AjoouterCatg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AfficherPServlet</servlet-name>
+        <url-pattern>/AfficherPServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AjoutCServlet</servlet-name>
+        <url-pattern>/AjoutCServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

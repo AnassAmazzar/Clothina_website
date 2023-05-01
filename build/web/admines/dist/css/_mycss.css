@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 mai 2022, 23:42:47
+    Author     : anass
+*/
+body{
+    background-image: url("../imge/background-admine.jpg");
+}
+.btn-primary{
+    background-color: #ff4545 !important;
+    border-color: #090909 !important;
+}
